@@ -12,8 +12,8 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <a href="#" class="nav-logo">Petrichic Vladislav</a>
-                <ul class="nav-links">
+                <a href="#" class="nav__logo">Petrichic Vladislav</a>
+                <ul class="nav__links">
                     <li><a href="#about">Обо мне</a></li>
                     <li><a href="#skills">Навыки</a></li>
                     <li><a href="#projects">Проекты</a></li>
@@ -26,23 +26,23 @@
     <main>
         <section id="hero" class="hero">
             <div class="container">
-                <div class="hero-content">
+                <div class="hero__content fade-in-up">
                     <h1>Привет, я <span class="highlight">Твое Имя</span>.</h1>
-                    <p class="hero-tagline">Я фронтенд-разработчик, создающий современные и адаптивные веб-интерфейсы.</p>
-                    <a href="#projects" class="btn primary-btn">Посмотреть мои проекты</a>
+                    <p class="hero__tagline">Я фронтенд-разработчик, создающий современные и адаптивные веб-интерфейсы.</p>
+                    <a href="#projects" class="btn primary__btn">Посмотреть мои проекты</a>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="about section-padding">
+        <section id="about" class="about section__padding">
             <div class="container">
-                <h2 class="section-title">Обо мне</h2>
-                <div class="about-content">
-                    <img src="https://via.placeholder.com/200" alt="Твое фото" class="about-image">
-                    <div class="about-text">
+                <h2 class="section__title">Обо мне</h2>
+                <div class="about__content">
+                    <img src="https://via.placeholder.com/200" alt="Твое фото" class="about__image fade-in-up">
+                    <div class="about__text fade-in-up">
                         <p>Я страстно увлечен созданием чистых, функциональных и удобных веб-приложений. С опытом работы с HTML, CSS (включая препроцессоры вроде SASS/SCSS), JavaScript (ES6+), и фреймворками/библиотеками такими как React, Vue или Angular, я стремлюсь воплощать идеи в жизнь с помощью чистого и эффективного кода.</p>
                         <p>Мой подход к разработке ориентирован на пользователя, с акцентом на отзывчивый дизайн, производительность и доступность. Я постоянно учусь новому и всегда готов принять вызов, чтобы освоить новые технологии.</p>
-                        <div class="social-links">
+                        <div class="social__links">
                             <a href="https://github.com/твое_имя" target="_blank" rel="noopener noreferrer">GitHub</a>
                             <a href="https://linkedin.com/in/твое_имя" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                             </div>
@@ -51,11 +51,11 @@
             </div>
         </section>
 
-        <section id="skills" class="skills section-padding">
+        <section id="skills" class="skills section__padding">
             <div class="container">
-                <h2 class="section-title">Навыки</h2>
-                <div class="skills-grid">
-                    <div class="skill-item">
+                <h2 class="section__title">Навыки</h2>
+                <div class="skills__grid">
+                    <div class="skill__item fade-in-up">
                         <h3>Основные</h3>
                         <ul>
                             <li>HTML5, CSS3, JavaScript (ES6+)</li>
@@ -64,14 +64,14 @@
                             <li>Git, npm/yarn</li>
                         </ul>
                     </div>
-                    <div class="skill-item">
+                    <div class="skill__item fade-in-up">
                         <h3>Фреймворки & Библиотеки</h3>
                         <ul>
                             <li>React (Hooks, Context API, Redux)</li>
                             <li>jQuery</li>
                         </ul>
                     </div>
-                    <div class="skill-item">
+                    <div class="skill__item fade-in-up">
                         <h3>Инструменты & Другое</h3>
                         <ul>
                             <li>Webpack, Vite</li>
@@ -84,46 +84,46 @@
             </div>
         </section>
 
-        <section id="projects" class="projects section-padding">
+        <section id="projects" class="projects section__padding">
             <div class="container">
-                <h2 class="section-title">Мои Проекты</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <img src="https://via.placeholder.com/300x200" alt="Проект 1" class="project-image">
-                        <h3>Название Проекта 1</h3>
-                        <p>Краткое описание проекта. Что это за проект и какие технологии использовались.</p>
-                        <a href="https://link_to_project1.com" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">Посмотреть проект</a>
-                        <a href="https://github.com/твое_имя/project1" target="_blank" rel="noopener noreferrer" class="btn outline-btn">Код на GitHub</a>
+                <h2 class="section__title">Мои Проекты</h2>
+                <div class="projects__grid">
+                    <div class="project__card fade-in-up">
+                        <img src="src/img/vegy.jpg" alt="food" class="project__image">
+                        <h3>Balance food</h3>
+                        <p>Сайт для заказа сбалансированного питания. Из функицонала: форма обратной связи, калькулятор колорий, табы, слайдер, динамическое создание карточек меню с сервера</p>
+                        <a href="https://link_to_project1.com" target="_blank" rel="noopener noreferrer" class="btn secondary__btn">Посмотреть проект</a>
+                        <a href="https://github.com/твое_имя/project1" target="_blank" rel="noopener noreferrer" class="btn outline__btn">Код на GitHub</a>
                     </div>
-                    <div class="project-card">
-                        <img src="https://via.placeholder.com/300x200" alt="Проект 2" class="project-image">
-                        <h3>Название Проекта 2</h3>
-                        <p>Краткое описание проекта. Что это за проект и какие технологии использовались.</p>
-                        <a href="https://link_to_project2.com" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">Посмотреть проект</a>
-                        <a href="https://github.com/твое_имя/project2" target="_blank" rel="noopener noreferrer" class="btn outline-btn">Код на GitHub</a>
+                    <div class="project__card fade-in-up">
+                        <img src="src/img/monovision.jpg" alt="monovision" class="project__image">
+                        <h3>Monovision photo</h3>
+                        <p>Портфолио студии фотографии. CSS grid, flexbox. Адаптация под устройства</p>
+                        <a href="https://link_to_project2.com" target="_blank" rel="noopener noreferrer" class="btn secondary__btn">Посмотреть проект</a>
+                        <a href="https://github.com/твое_имя/project2" target="_blank" rel="noopener noreferrer" class="btn outline__btn">Код на GitHub</a>
                     </div>
-                    <div class="project-card">
-                        <img src="https://via.placeholder.com/300x200" alt="Проект 3" class="project-image">
+                    <div class="project__card fade-in-up">
+                        <img src="https://via.placeholder.com/300x200" alt="Проект 3" class="project__image">
                         <h3>Название Проекта 3</h3>
                         <p>Краткое описание проекта. Что это за проект и какие технологии использовались.</p>
-                        <a href="https://link_to_project3.com" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">Посмотреть проект</a>
-                        <a href="https://github.com/твое_имя/project3" target="_blank" rel="noopener noreferrer" class="btn outline-btn">Код на GitHub</a>
+                        <a href="https://link_to_project3.com" target="_blank" rel="noopener noreferrer" class="btn secondary__btn">Посмотреть проект</a>
+                        <a href="https://github.com/твое_имя/project3" target="_blank" rel="noopener noreferrer" class="btn outline__btn">Код на GitHub</a>
                     </div>
                     </div>
             </div>
         </section>
 
-        <section id="contact" class="contact section-padding">
+        <section id="contact" class="contact section__padding">
             <div class="container">
-                <h2 class="section-title">Связаться со мной</h2>
+                <h2 class="section__title">Связаться со мной</h2>
                 <p>Если у вас есть вопросы или предложения, я всегда готов к новым возможностям!</p>
-                <form class="contact-form">
+                <form class="contact__form fade-in-up">
                     <input type="text" placeholder="Ваше Имя" required>
                     <input type="email" placeholder="Ваш Email" required>
                     <textarea placeholder="Ваше сообщение..." rows="5" required></textarea>
-                    <button type="submit" class="btn primary-btn">Отправить сообщение</button>
+                    <button type="submit" class="btn primary__btn">Отправить сообщение</button>
                 </form>
-                <div class="contact-info">
+                <div class="contact__info fade-in-up">
                     <p>Email: <a href="mailto:твой_email@example.com">твой_email@example.com</a></p>
                     <p>Телефон: <a href="tel:+1234567890">+1234567890</a> (Опционально)</p>
                 </div>
@@ -134,7 +134,7 @@
     <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Твое Имя. Все права защищены.</p>
-            <div class="footer-social-links">
+            <div class="footer__social">
                 <a href="https://github.com/твое_имя" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="https://linkedin.com/in/твое_имя" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
@@ -142,6 +142,6 @@
     </footer>
 
 
-     <script src="js/main.js"></script>
+     <script src="src/js/main.js"></script>
 </body>
 </html>
